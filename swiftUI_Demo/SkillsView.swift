@@ -18,7 +18,7 @@ struct SkillsView : View {
                 
                 CategoryItem(image: "javascript").frame(width: 100, height: 100)
                 CategoryItem(image: "nodejs").frame(width: 100, height: 100)
-            }.padding(.bottom, 20.0)
+                }.padding(.bottom, 20.0)
             HStack(spacing:20) {
                 CategoryItem(image: "mobile").frame(width: 100, height: 100)
                 
@@ -40,7 +40,7 @@ struct CategoryItem: View {
             .overlay(
                 Circle().stroke(Color.white, lineWidth: 0))
             .shadow(radius: 10)
-            
+        
     }
 }
 
